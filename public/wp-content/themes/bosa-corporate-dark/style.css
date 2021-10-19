@@ -1,0 +1,95 @@
+/*!
+Theme Name: Bosa Corporate Dark
+Theme URI: https://bosathemes.com/bosa-corporate-dark
+Author: Keon Themes
+Author URI: https://keonthemes.com
+Description: Bosa Corporate Dark is multipurpose business theme. Bosa Corporate Dark is beautiful, fast, lightweight, responsive, extremely customizable theme that you can use as a foundation to build versatile sites such as business, startups, business agencies, corporate, blog, finance, accounting, consulting and preferably ideal for any type of business sites. Bosa Corporate Dark is a child theme of Bosa, a free multipurpose WordPress theme. Bosa Corporate Dark works perfectly with Gutenberg and the most popular page builder Elementor that can easily drag-and-drop your ideas from the interface. Bosa Corporate Dark is built with SEO, speed, and usability in mind with the multiple Header & Footer layouts, predesigned starter sites includes awesome Home & Inner Pages that is incredibly customizable and powerful enough to take a stand among the crowd. Bosa Corporate Dark is compatible with all major plugins like WooCommerce, Yoast, Contact form 7, Mailchimp for WordPress, bbPress, etc. Looking for a Multipurpose Business theme? Look no further!
+Version: 1.0.6
+Requires PHP: 5.5
+Tested up to: 5.8
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: bosa
+Text Domain: bosa-corporate-dark
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Bosa Corporate Dark WordPress Theme, Copyright 2021 Keon Themes
+Bosa Corporate Dark is distributed under the terms of the GNU General Public License v3
+
+Bosa Corporate Dark is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+body {
+  color: #444444;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  color: #3a3a3a;
+  font-family: 'Oswald', sans-serif;
+}
+
+.wp-block-quote {
+  padding: 30px 30px 30px 50px;
+  margin: 30px 0 30px 30px;
+}
+
+.site-header .site-branding .site-title {
+  font-family: 'Oswald', sans-serif;
+}
+
+.site-footer .site-info,
+.post .entry-meta, 
+.attachment .entry-meta, 
+.banner-content .entry-meta {
+  font-family: 'Rubik', sans-serif;
+}
+
+#bosa-dark-corporate-contact .wpcf7 input[type=text],
+#bosa-dark-corporate-contact .wpcf7 input[type=email] {
+  background-color: transparent;
+  border: solid 1px rgba(221, 221, 221, 0.2);
+  margin: 15px 0;
+  height: 50px;
+  padding: 20px;
+  color: #dddddd;
+}
+#bosa-dark-corporate-contact .wpcf7 textarea {
+  background-color: transparent;
+  border: solid 1px rgba(221, 221, 221, 0.2);
+  margin: 15px 0;
+  padding: 20px;
+  color: #dddddd;
+}
+#bosa-dark-corporate-contact .wpcf7 input[type=submit] {
+  background-color: #EB5A3E;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-family: rubik;
+}
+#bosa-dark-corporate-contact .wpcf7 input[type=submit]:hover,
+#bosa-dark-corporate-contact .wpcf7 input[type=submit]:focus,
+#bosa-dark-corporate-contact .wpcf7 input[type=submit]:active {
+  background-color: #AF3119;
+}

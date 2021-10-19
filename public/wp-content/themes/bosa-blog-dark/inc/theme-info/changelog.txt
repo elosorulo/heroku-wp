@@ -1,0 +1,8 @@
+= 1.0.2 =
+* Title-tag and automatic-feed-links support added.
+
+= 1.0.1 =
+* Added license information for kirki.
+
+= 1.0.0 =
+* Initial Release.

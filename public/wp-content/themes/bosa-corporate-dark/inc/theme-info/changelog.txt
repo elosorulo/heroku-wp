@@ -1,0 +1,20 @@
+= 1.0.6 =
+* Style issue fixed.
+
+= 1.0.5 =
+* Features post column updated.
+
+= 1.0.4 =
+* Style issues fixed.
+
+= 1.0.3 =
+* Style issues fixed.
+
+= 1.0.2 =
+* Style issues fixed.
+
+= 1.0.1 =
+* Style issues fixed.
+
+= 1.0.0 =
+* Initial Release.
