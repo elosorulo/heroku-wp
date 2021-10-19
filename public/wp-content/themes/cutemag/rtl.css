@@ -1,0 +1,271 @@
+/*
+ * Theme Name: CuteMag RTL CSS
+ * Description: Adds support for languages written in a Right To Left (RTL) direction.
+ */
+
+body{direction:rtl;unicode-bidi:embed;}
+
+/* Typography & Elements
+-------------------------------------------------------------- */
+blockquote{text-align:right;}
+blockquote cite{text-align:right;}
+ul,ol{margin:0 2em 1.5em 0;}
+li > ul,li > ol{margin-left:0;margin-right:1em;}
+dd{margin:0 1.5em 1.5em;}
+th,td,caption{padding:4px 5px 4px 10px;}
+
+/* Forms
+-------------------------------------------------------------- */
+textarea{padding-right:3px;}
+
+/* Layout
+-------------------------------------------------------------- */
+
+/* Social Icons ----------------------------------------------- */
+.cutemag-primary-menu-active .cutemag-nav-primary .cutemag-social-icons{right:auto;left:10px;}
+.cutemag-secondary-menu-active .cutemag-nav-secondary .cutemag-social-icons{right:auto;left:10px;}
+.cutemag-social-icons a{margin-right:0;margin-left:1px;}
+
+@media only screen and (max-width: 1112px) {
+.cutemag-primary-menu-active .cutemag-nav-primary .cutemag-social-icons{padding-left:0;padding-right:80px;}
+.cutemag-secondary-menu-active .cutemag-nav-secondary .cutemag-social-icons{padding-left:0;padding-right:80px;}
+}
+
+.cutemag-primary-menu-inactive .cutemag-nav-primary .cutemag-social-icons{text-align:right;}
+.cutemag-secondary-menu-inactive .cutemag-nav-secondary .cutemag-social-icons{text-align:right;}
+@media only screen and (max-width: 1112px) {
+.cutemag-primary-menu-inactive .cutemag-nav-primary .cutemag-social-icons{text-align:right;}
+.cutemag-secondary-menu-inactive .cutemag-nav-secondary .cutemag-social-icons{text-align:right;}
+}
+
+/* Header
+-------------------------------------------------------------- */
+.cutemag-logo{float:right;text-align:right;}
+.cutemag-header-banner{float:right;text-align:left;}
+
+.cutemag-header-full-active .cutemag-logo{float:none;text-align:right;}
+.cutemag-header-full-active .cutemag-header-banner{float:none;text-align:right;}
+
+@media only screen and (max-width: 1112px) {
+.cutemag-logo{float:none;text-align:right;}
+.cutemag-header-banner{float:none;text-align:right;}
+.cutemag-logo-img{margin:0;}
+}
+
+.cutemag-header-image-info{text-align:right;}
+
+.cutemag-logo-beside-title .site-branding-full .cutemag-custom-logo-image{margin-right:0;margin-left:15px;}
+@media only screen and (max-width: 1112px) {
+.cutemag-logo-beside-title .site-branding-full{justify-content:right;}
+.cutemag-custom-logo-active.cutemag-logo-beside-title .cutemag-logo{text-align:right;}
+}
+
+/* Menu
+-------------------------------------------------------------- */
+.cutemag-primary-nav-menu li{text-align:right;float:right;}
+.cutemag-primary-nav-menu .sub-menu,.cutemag-primary-nav-menu .children{left:0;right:-9999px;}
+.cutemag-primary-nav-menu .sub-menu .sub-menu,.cutemag-primary-nav-menu .children .children{margin:-47px 189px 0 0;}
+.cutemag-primary-nav-menu li:hover > .sub-menu,.cutemag-primary-nav-menu li:hover > .children,.cutemag-primary-nav-menu li.cutemag-focus > .sub-menu,.cutemag-primary-nav-menu li.cutemag-focus > .children{right:auto;}
+.cutemag-primary-responsive-menu-icon{text-align:right;}
+.cutemag-primary-responsive-menu-icon::before{margin:0 0 0 6px;}
+@media only screen and (min-width: 1113px) {
+.cutemag-primary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.cutemag-primary-nav-menu .sub-menu li.menu-item-has-children > a:after,.cutemag-primary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.cutemag-primary-mobile-menu-inactive .cutemag-primary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.cutemag-primary-mobile-menu-inactive .cutemag-primary-nav-menu .sub-menu li.menu-item-has-children > a:after,.cutemag-primary-mobile-menu-inactive .cutemag-primary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu li{float:none}
+.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu .menu-item-has-children > a,.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu .page_item_has_children > a{margin-right:0;margin-left:50px;}
+.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu > .menu-item-has-children:before,.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu > .page_item_has_children:before{float:left;right:auto;left:0;text-align:left;}
+.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu > li > .sub-menu,.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu > li > .children{margin:0;padding:0;left:0;right:-9999px;}
+.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu > li.cutemag-focus > .sub-menu,.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu > li.cutemag-focus > .children{right:auto;}
+.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu > li > .sub-menu.cutemag-submenu-toggle,.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu > li > .children.cutemag-submenu-toggle{right:auto;}
+.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu .sub-menu,.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu .children{right:auto;margin:0;}
+.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu .sub-menu .sub-menu,.cutemag-primary-mobile-menu-active .cutemag-primary-nav-menu.cutemag-primary-responsive-menu .children .children{margin:0;padding-left:0;padding-right:15px;}
+}
+
+/* Secondary Menu
+-------------------------------------------------------------- */
+.cutemag-secondary-nav-menu li{text-align:right;float:right;}
+.cutemag-secondary-nav-menu .sub-menu,.cutemag-secondary-nav-menu .children{left:0;right:-9999px;}
+.cutemag-secondary-nav-menu .sub-menu .sub-menu,.cutemag-secondary-nav-menu .children .children{margin:-39px 189px 0 0}
+.cutemag-secondary-nav-menu li:hover > .sub-menu,.cutemag-secondary-nav-menu li:hover > .children,.cutemag-secondary-nav-menu li.cutemag-focus > .sub-menu,.cutemag-secondary-nav-menu li.cutemag-focus > .children{right:auto;}
+.cutemag-secondary-responsive-menu-icon{text-align:right;margin:0;}
+.cutemag-secondary-responsive-menu-icon::before{margin:0 0 0 6px;}
+@media only screen and (min-width: 1113px) {
+.cutemag-secondary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.cutemag-secondary-nav-menu .sub-menu li.menu-item-has-children > a:after,.cutemag-secondary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.cutemag-secondary-mobile-menu-inactive .cutemag-secondary-nav-menu > li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;}
+.cutemag-secondary-mobile-menu-inactive .cutemag-secondary-nav-menu .sub-menu li.menu-item-has-children > a:after,.cutemag-secondary-mobile-menu-inactive .cutemag-secondary-nav-menu .children li.menu-item-has-children > a:after{margin-left:0;margin-right:8px;right:auto;left:8px;}
+}
+@media only screen and (max-width: 1112px) {
+.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu li{float:none}
+.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu .menu-item-has-children > a,.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu .page_item_has_children > a{margin-right:0;margin-left:50px;}
+.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu > .menu-item-has-children:before,.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu > .page_item_has_children:before{float:left;right:auto;left:0;text-align:left;}
+.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu > li > .sub-menu,.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu > li > .children{margin:0;padding:0;left:0;right:-9999px;}
+.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu > li.cutemag-focus > .sub-menu,.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu > li.cutemag-focus > .children{right:auto;}
+.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu > li > .sub-menu.cutemag-submenu-toggle,.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu > li > .children.cutemag-submenu-toggle{right:auto;}
+.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu .sub-menu,.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu .children{right:auto;margin:0;}
+.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu .sub-menu .sub-menu,.cutemag-secondary-mobile-menu-active .cutemag-secondary-nav-menu.cutemag-secondary-responsive-menu .children .children{margin:0;padding-left:0;padding-right:15px;}
+}
+
+/* Posts & Pages
+-------------------------------------------------------------- */
+.cutemag-posts .cutemag-posts-heading{text-align:right;}
+.cutemag-posts .cutemag-posts-heading i{right:0;left:5px;}
+.cutemag-page-header{text-align:right;}
+.taxonomy-description{text-align:right;}
+.cutemag-entry-meta-single{text-align:right;}
+.cutemag-entry-meta-single-cats{margin:0 0 0 10px;}
+.cutemag-entry-meta-single-author{margin:0 0 0 10px;}
+.cutemag-entry-meta-single-date{margin:0 0 0 10px;}
+.cutemag-entry-meta-single-comments{margin:0 0 0 10px;}
+.entry-title{text-align:right;}
+.cutemag-table-css-active table tr th{border-right-width:0 !important;border-left-width:1px !important;border-left-style:solid !important;}
+.cutemag-table-css-active table tr th:last-child{border-left-width:0px !important;}
+.cutemag-table-css-active table tr td{border-right-width:0 !important;border-left-width:1px !important;border-left-style:solid !important;}
+.cutemag-table-css-active table tr td:last-child{border-left-width:0px !important;}
+
+/* =Page Links
+----------------------------------------------- */
+.page-links > span,.page-links > a{float:right;border-left:0px solid #dadada !important;border-right:1px solid #dadada !important;}
+.page-links span.page-links-title{border-right:0 !important;}
+
+/* Posts/Post Navigation
+-------------------------------------------------------------- */
+.navigation.posts-navigation .nav-links .nav-previous a:after{margin-left:0;margin-right:6px;}
+.navigation.posts-navigation .nav-links .nav-next a:before{margin-right:0;margin-left:6px;}
+
+.nav-previous{float:left;text-align:left;}
+.nav-next{float:right;text-align:right;}
+
+.navigation.post-navigation .nav-previous{float:left;text-align:left;}
+.navigation.post-navigation .nav-next{float:right;text-align:right;}
+@media only screen and (max-width: 767px) {
+.navigation.post-navigation .nav-previous{float:none;text-align:center;}
+.navigation.post-navigation .nav-next{float:none;text-align:center;}
+}
+
+.navigation.pagination{text-align:right;}
+.navigation.pagination .page-numbers{margin:0 0 5px 1px;}
+
+/* WP-PageNavi
+-------------------------------------------------------------- */
+.wp-pagenavi{text-align:right;}
+
+/* Tag Cloud Widget
+-------------------------------------------------------------- */
+.widget_tag_cloud a{margin:0 0 5px 5px;}
+
+/* Calendar
+-------------------------------------------------------------- */
+#wp-calendar caption{text-align:left;padding:10px 0 0 10px;}
+#wp-calendar tbody td{text-align:right;}
+#wp-calendar tfoot #next{text-align:left;}
+#wp-calendar thead th{padding-bottom:10px;text-align:right;}
+
+/* Alignments
+-------------------------------------------------------------- */
+.alignleft{float:right;margin:0 0 10px 10px;}
+.alignright{float:left;margin:0 10px 10px 0;}
+
+/* Captions
+-------------------------------------------------------------- */
+.wp-caption{text-align:right;}
+
+/* Comments
+-------------------------------------------------------------- */
+.comment-respond #cancel-comment-reply-link{margin-left:0;margin-right:1em;}
+.comment-form label{padding-right:0;padding-left:1em;}
+.comments-area > ol{margin:0;}
+.comment .edit-link,.pingback .edit-link{float:left;}
+.comment .comment-meta .comment-author .avatar{float:right;margin-right:0;margin-left:1em;}
+#respond input[type=text],textarea{padding:3px 3px 3px 0;margin:5px 0 3px 1px;}
+#respond input[type=text]:focus,#respond input[type=text]:active,textarea:focus,textarea:active{margin:5px 0 3px 1px;}
+.comment-form-cookies-consent label{padding-left:0;padding-right:10px;}
+
+/* Sidebar
+-------------------------------------------------------------- */
+.cutemag-sidebar-widget-areas .widget .cutemag-widget-title{text-align:right;}
+.cutemag-sidebar-widget-areas .widget ol{padding:0 1.2em 0 0;}
+.cutemag-sidebar-widget-areas .widget li{padding:6px 0px 6px 0px;}
+.cutemag-sidebar-widget-areas .widget li li{padding:6px 10px 6px 0;}
+
+/* Footer
+-------------------------------------------------------------- */
+#cutemag-footer-blocks .widget ol{padding:0 1.2em 0 0;}
+#cutemag-footer-blocks .widget li{padding:6px 0 6px 0;}
+#cutemag-footer-blocks .widget li li{padding:8px 10px 8px 0;}
+
+/* Copyright
+-------------------------------------------------------------- */
+#cutemag-footer .cutemag-foot-wrap p.cutemag-copyright{text-align:right;padding:8px;}
+#cutemag-footer .cutemag-foot-wrap p.cutemag-credit{text-align:right;padding:8px;}
+
+/* Search Widget
+-------------------------------------------------------------- */
+.cutemag-search-overlay-content{text-align:right;}
+.cutemag-search-overlay .cutemag-search-closebtn{right:auto;left:45px;}
+.cutemag-search-overlay input[type=text]{float:right;}
+
+input.cutemag-search-submit{right:auto;left:0;}
+
+/* Featured Posts Area Widgets
+-------------------------------------------------------------- */
+.cutemag-featured-posts-area .widget .cutemag-widget-title{text-align:right;}
+.cutemag-featured-posts-area .widget ol{padding:0 1.2em 0 0;}
+.cutemag-featured-posts-area .widget li{padding:6px 0px 6px 0px;}
+.cutemag-featured-posts-area .widget li li{padding:6px 10px 6px 0;}
+
+/* Featured Posts: Compact Posts
+-------------------------------------------------------------- */
+.cutemag-compact-post .cutemag-compact-post-thumbnail{float:right;margin:0 0 1px 10px;}
+.cutemag-compact-post .cutemag-compact-post-thumbnail.cutemag-compact-post-thumbnail-nofloat{float:none;margin:0 0 10px 0;}
+.cutemag-compact-post-read-more a:after{margin-left:0;margin-right:5px;}
+
+.cutemag-post-summary-media-data{text-align:right;}
+.cutemag-post-summary-media-data-meta{margin-right:0;margin-left:6px;}
+.cutemag-post-summary-media-data-meta:last-child{margin-left:0;float:left;}
+
+/* Featured Posts: Fullview Posts
+-------------------------------------------------------------- */
+.cutemag-fullview-post-snippet{text-align:right;}
+.cutemag-fullview-post-read-more{text-align:right;}
+.cutemag-fullview-post-read-more a:after{margin-left:0;margin-right:5px;}
+.cutemag-fullview-posts .entry-footer{text-align:right;}
+.cutemag-posts .cutemag-posts-container .entry-footer{text-align:right;}
+
+/* Share Buttons
+-------------------------------------------------------------- */
+.cutemag-share-buttons{text-align:right;}
+.cutemag-share-buttons a{margin:0 2px 6px 4px;}
+.cutemag-share-buttons a i{margin-right:0;margin-left:5px;}
+.cutemag-mini-share-buttons-wrapper{right:auto;left:0;}
+.cutemag-post-singular .cutemag-small-share-buttons{text-align:right;}
+.cutemag-small-share-buttons a{margin:0 2px 6px 4px;text-align:right;}
+.cutemag-small-share-buttons a i{margin-right:0;margin-left:4px;}
+.cutemag-mini-share-buttons > i{float:left;}
+.cutemag-mini-share-buttons .cutemag-mini-share-buttons-inner{right:auto;left:0;margin-right:0;margin-left:24px;-webkit-transform:translateX(-24px);-moz-transform:translateX(-24px);-ms-transform:translateX(-24px);-o-transform:translateX(-24px);transform:translateX(-24px);}
+.cutemag-mini-share-buttons:hover .cutemag-mini-share-buttons-inner,.cutemag-mini-share-buttons:focus-within .cutemag-mini-share-buttons-inner{-webkit-transform:translateX(0%);-moz-transform:translateX(0%);-ms-transform:translateX(0%);-o-transform:translateX(0%);transform:translateX(0%);}
+.cutemag-mini-share-buttons .cutemag-mini-share-buttons-content a{float:left;}
+.cutemag-mini-share-buttons .cutemag-mini-share-buttons-content a:before{right:auto;left:-1px;}
+
+/* Author Bio Box
+-------------------------------------------------------------- */
+.cutemag-author-bio-gravatar{float:right;margin:0 0 5px 12px;}
+.cutemag-author-bio .cutemag-author-bio-social{text-align:right;}
+.cutemag-author-bio .cutemag-author-bio-social a{margin:0 0 3px 4px;}
+.cutemag-author-bio .cutemag-author-bio-social a i{margin-right:0;margin-left:1px;}
+
+/* Scroll to Top Button
+-------------------------------------------------------------- */
+.cutemag-scroll-top{right:auto;left:20px;}
+
+.cutemag-text-center{text-align:right;}
+.cutemag-featured-posts-ajax-page-numbers{right:auto;left:0;}
+.cutemag-featured-posts-widget.widget .cutemag-widget-header .cutemag-widget-title a.cutemag-featured-posts-viewall{float:left;}
